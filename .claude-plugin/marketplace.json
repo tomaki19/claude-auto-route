@@ -1,0 +1,15 @@
+{
+  "name": "auto-route",
+  "description": "Claude Code plugins for automatic model routing.",
+  "owner": {
+    "name": "Thomas Killer",
+    "email": "tkone@gmx.ch"
+  },
+  "plugins": [
+    {
+      "name": "auto-route",
+      "source": "./plugins/auto-route",
+      "description": "Complexity-based model routing across Haiku, Sonnet, Opus and Fable. Toggle with /auto-route."
+    }
+  ]
+}

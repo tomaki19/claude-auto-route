@@ -1,0 +1,11 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "auto-route",
+  "version": "0.1.0",
+  "description": "Complexity-based model routing: each model does work that fits its tier and delegates the rest up or down to Haiku, Sonnet, Opus or Fable workers. Toggle with /auto-route.",
+  "author": {
+    "name": "Thomas Killer",
+    "email": "tkone@gmx.ch"
+  },
+  "keywords": ["routing", "cost", "subagents", "models"]
+}
